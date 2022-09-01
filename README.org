@@ -4,6 +4,11 @@
  3. php7.4-fpm
  4. composer install
 
+* Create logs directory
+#+BEGIN_SRC sh
+mkdir logs
+#+END_SRC
+
 * Start
 #+BEGIN_SRC sh
 lighttpd -D -f lighttpd.conf
