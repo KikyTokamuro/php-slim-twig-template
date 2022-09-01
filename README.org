@@ -1,0 +1,12 @@
+* Install dependencies
+ 1. lighttpd
+ 2. php7.4-cgi
+ 3. php7.4-fpm
+ 4. composer install
+
+* Start
+#+BEGIN_SRC sh
+lighttpd -D -f lighttpd.conf
+#+END_SRC
+
+And go to localhost:8000
