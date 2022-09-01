@@ -9,6 +9,11 @@
 mkdir logs
 #+END_SRC
 
+* Create sockets directory
+#+BEGIN_SRC sh
+mkdir sockets
+#+END_SRC
+
 * Start
 #+BEGIN_SRC sh
 lighttpd -D -f lighttpd.conf

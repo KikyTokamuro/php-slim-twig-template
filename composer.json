@@ -8,7 +8,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "Controller\\": "controllers/"
+            "App\\":             "app/",
+            "App\\Controller\\": "app/controllers/",
+            "App\\Routes\\":     "app/routes/"
         }
     },
     "require": {
